@@ -1,5 +1,4 @@
-CIFAR-10
-CIFAR-10/*
+CIFAR-10/*.gz
 MNIST-data
 MNIST-data/*
 .DS_Store
