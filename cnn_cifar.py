@@ -103,7 +103,7 @@ def main(unused_argv):
   eval_labels = np.asarray(cifar10_test[b'labels'], dtype = np.int32)
 
   # Create the Estimator
-  cifar_classifier = tf.estimator.Estimator(model_fn=cnn_model_fn, model_dir="/tmp/cifar_convnet_model2")
+  cifar_classifier = tf.estimator.Estimator(model_fn=cnn_model_fn, model_dir="cifar_convnet_model")
 
   # Set up logging for predictions
   tensors_to_log = {"probabilities": "softmax_tensor"}
